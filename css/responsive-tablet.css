@@ -1,0 +1,178 @@
+/* Font Icon : Bootstrap Icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* font family */
+/* text color */
+/* object color */
+:root {
+  --primary-kr: Noto Sans KR, sans-serif;
+  --primary-en: Raleway, serif;
+  --dark-black: #333333;
+  --dim-black: #555555;
+  --silver-black: #777777;
+  --light-black: #999999;
+  --dark-gray: #BDBDBD;
+  --dim-gray: #DDDDDD;
+  --silver-gray: #EEEEEE;
+  --light-gray: #F5F5F5;
+  --cloudy-gray: #F9F9F9;
+  --royalblue: #006BE5;
+  --orangered: #FD5631;
+  --orange: #FFD912;
+  --crimson: #ED2040;
+  --forestgreen: #68BC6B;
+  --turquoise: #00D2D3;
+  --tomato: #FF4C79;
+  --white: #FFFFFF;
+  --black: #171717;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  font-weight: 500;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* responsive for tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* common */
+  section:not(.front-slider) {
+    padding: 35px 10px;
+  }
+  [class*=inner] {
+    width: 100% !important;
+  }
+  /* header */
+  header .header-inner {
+    padding: 0 10px;
+  }
+  header .header-inner .search {
+    width: 300px;
+  }
+  header .mega-navi .mega-navi-inner {
+    width: 100%;
+    padding: 20px;
+    gap: 10px;
+  }
+  header .mega-navi .mega-navi-inner .mega-navi-item {
+    font-size: 13px;
+  }
+  /* section: front-slider */
+  /* section: category-shortcut */
+  .category-shortcut .category-shortcut-inner .category-shortcut-items .category-shortcut-item {
+    height: auto;
+    padding: 10px 0;
+  }
+  .category-shortcut .category-shortcut-inner .category-shortcut-items .category-shortcut-item span {
+    font-size: 14px;
+  }
+  /* section: focus-class */
+  /* section: best-class */
+  /* section: timer */
+  /* section: eary-bird */
+  /* section: blog */
+  .blog .blog-inner .blog-content .blog-items .blog-item .thum {
+    height: 160px;
+  }
+  /* section: slogan */
+  /* section: tip-tech */
+  /* footer */
+  footer {
+    padding: 30px 20px;
+  }
+  footer .footer-inner .lnb-wrap {
+    gap: 40px;
+  }
+  footer .footer-inner .copyright-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 80%;
+    text-align: left;
+  }
+  /* ################ Class Detail: class-detail.html ################ */
+  .class-detail-image .class-detail-image-inner {
+    height: 300px;
+    padding: 0 50px;
+  }
+  .class-detail-image .class-detail-image-inner .heading h2 {
+    font-size: 24px;
+  }
+  .class-detail-image .class-detail-image-inner .heading p {
+    font-size: 16px;
+  }
+  .class-detail-image .class-detail-image-inner .cover-image img {
+    height: 250px;
+  }
+  .class-detail-full .class-detail-full-inner .class-detail-full-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-info * img {
+    width: 70%;
+  }
+  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-sidebar {
+    position: static;
+  }
+  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-sidebar .class-required-info .class-detail-sidebar-wrap.group-required-info .class-price {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-sidebar .class-required-info .class-detail-sidebar-wrap.group-required-info .class-price .sale {
+    margin-right: 10px;
+  }
+  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-sidebar .class-required-info .class-detail-sidebar-wrap.group-required-info .class-price .price-current {
+    margin-left: 0;
+    margin-right: 5px;
+  }
+  /* ################ Take Course: take-course.html ################ */
+  .take-course .take-course-inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .take-course .take-course-inner .payment {
+    width: 100%;
+  }
+  .take-course .take-course-inner .payment .mobile-confirm-wrap input[type=tel] {
+    width: 80%;
+  }
+  .take-course .take-course-inner .payment .mobile-confirm-wrap .btn-request {
+    width: 20%;
+  }
+}
